@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Cloud_01_Thick"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=28F3CA5B4197D5525497519C9806D9C4
+   Parent=Material'"/Game/Brushify/Materials/Fog/M_FakeFog.M_FakeFog"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Albedo_Contrast"),ParameterValue=1.000000,ExpressionGUID=63F3835B4EACD4AAA24FFB945D73F07B)
+   ScalarParameterValues(1)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Albedo_Intensity"),ParameterValue=1.252953,ExpressionGUID=1D8FD84C482DECEF673474ACC71108E9)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="FadeDistance"),ParameterValue=4000.000000,ExpressionGUID=AD404D784B09520865FE3689A131A0A1)
+   ScalarParameterValues(3)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Fog_Intensity"),ParameterValue=0.432598,ExpressionGUID=D638992E4DE48CD1EBD9EAB027DA1E1D)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="AlbedoColor"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000),ExpressionGUID=DD12514F4A740A19EB232596D8527BDD)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Albedo"),ParameterValue=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_White_D.T_White_D"',ExpressionGUID=6C4151014C52A79EB3110D9619D0F884)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Opacity"),ParameterValue=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_Cloud_01.T_Cloud_01"',ExpressionGUID=CD9F8FE14846AAED0FD75985096DF35D)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=CCBC97194AFEAD0D5D11F3ADE918DDDF
+   ReferencedTextureGuids(1)=FD9000A541D98675006679BF51AABEBC
+   CachedReferencedTextures(0)=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_Cloud_01.T_Cloud_01"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=CD785C06462B41ED52741CB4A8B52A70
+End Object

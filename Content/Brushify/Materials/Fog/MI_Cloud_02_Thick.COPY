@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Cloud_02_Thick"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=A40897B74BB6E9F30EC87E9234AC9F9B
+   Parent=Material'"/Game/Brushify/Materials/Fog/M_FakeFog.M_FakeFog"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Albedo_Intensity"),ParameterValue=1.096204,ExpressionGUID=1D8FD84C482DECEF673474ACC71108E9)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="FadeDistance"),ParameterValue=62678.675781,ExpressionGUID=AD404D784B09520865FE3689A131A0A1)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Fog_Intensity"),ParameterValue=1.610837,ExpressionGUID=D638992E4DE48CD1EBD9EAB027DA1E1D)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="AlbedoColor"),ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000),ExpressionGUID=DD12514F4A740A19EB232596D8527BDD)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Albedo"),ParameterValue=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_White_D.T_White_D"',ExpressionGUID=6C4151014C52A79EB3110D9619D0F884)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Opacity"),ParameterValue=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_Cloud_02.T_Cloud_02"',ExpressionGUID=CD9F8FE14846AAED0FD75985096DF35D)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=CCBC97194AFEAD0D5D11F3ADE918DDDF
+   ReferencedTextureGuids(1)=7E7967AF419DEED000A17997923097CB
+   CachedReferencedTextures(0)=Texture2D'"/Game/Brushify/Materials/Fog/Textures/T_Cloud_01.T_Cloud_01"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=D8B5A9CC42A8208DB2A667996E1B8EAA
+End Object
